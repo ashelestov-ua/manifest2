@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote  name="gerrit"
+        fetch="https://review.gerrithub.io"
+        revision="main"
+        review="" />
+    <default remote="gerrithub"
+        revision="main"/>
+
+    <project path="repo4"
+        name="ashelestov-ua/repo4" />
+    <project path="repo6"
+        name="ashelestov-ua/repo6" />
+</manifest>
